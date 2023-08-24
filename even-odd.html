@@ -1,0 +1,31 @@
+<html>
+<head>
+<title> even odd </title>
+<script type="text/javascript">
+function fun()
+{
+var x=parseInt(document.getElementById("a").value);
+if (x%2==0)
+{
+res="even"
+}
+else
+{
+res="odd"
+}
+document.getElementById("b").innerHTML=res;
+
+}
+
+</script>
+</head>
+<body>
+<form>
+Enter a no:<input type="text" id="a"><br>
+<input type="button" value="check" onclick="fun()">
+Given number is <i id="b"> </i>
+
+
+</form>
+</body>
+</html>

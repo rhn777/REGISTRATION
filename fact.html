@@ -1,0 +1,27 @@
+<html>
+<head>
+<title> fact </title>
+<script type="text/javascript">
+function display()
+{
+var i,fact=1;
+var f=parseInt(document.getElementById("a").value);
+for(i=1;i<=f;i++)
+{
+fact=fact*i;
+}
+document.getElementById("b").value=fact;
+
+
+
+}
+</script>
+</head>
+<body>p
+<form> <center>
+Enter a number <input type="text" id="a"> <br>
+<input type="button" value="Fact" onclick="display()"><br>
+factorial is <input type="text" id="b">
+</form>
+</body>
+</html>
